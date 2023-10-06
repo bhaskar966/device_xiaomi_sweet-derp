@@ -22,5 +22,5 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Derp
-DERP_BUILDTYPE := Unofficial
+DERP_BUILDTYPE := Official
 EXTRA_UDFPS_ANIMATIONS := false
