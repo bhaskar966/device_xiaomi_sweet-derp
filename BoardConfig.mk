@@ -123,7 +123,7 @@ TARGET_KERNEL_ADDITIONAL_FLAGS := AS=llvm-as AR=llvm-ar NM=llvm-nm OBJCOPY=llvm-
 TARGET_KERNEL_CLANG_COMPILE := true
 KERNEL_SUPPORTS_LLVM_TOOLS := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sweet
-TARGET_KERNEL_CONFIG := vendor/sweet_pref_defconfig
+TARGET_KERNEL_CONFIG := vendor/sweet_perf_defconfig
 TARGET_KERNEL_CLANG_VERSION := r487747c
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-r487747c
 BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200n8 earlycon=msm_geni_serial,0x880000
