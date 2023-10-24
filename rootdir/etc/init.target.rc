@@ -219,6 +219,9 @@ service boot_lc_kernel /system/bin/logcat -db kernel -D -f /cache/boot_lc_kernel
     oneshot
 
 on post-fs-boot
+    # Clear existing log and start the service
+    rm /cache/boot_log.txt
+    start logger
 
 on property:sys.boot_completed=1
     stop boot_lc
