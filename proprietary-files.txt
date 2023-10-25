@@ -1223,6 +1223,9 @@ vendor/firmware/vehicle_plane_RTP.bin
 # WLAN
 -vendor/bin/cnss-daemon
 
+# WALN Frimware
+vendor/firmware/wlan/qca_cld/wlan_mac.bin
+
 # Dolby - from 9R OOS 11.2.8.8
 system/lib64/vendor.dolby.hardware.dms@2.0.so|0a1cb972160890b07baf3a3e624e9ec1273befed
 -system_ext/priv-app/DaxUI/DaxUI.apk|89e8ceabb19458b872eed0560a627eb2ff4c4dc4
