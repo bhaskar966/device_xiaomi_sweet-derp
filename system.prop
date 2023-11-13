@@ -15,9 +15,6 @@ ro.sf.blurs_are_expensive=1
 # Camera
 persist.vendor.camera.privapp.list=app.grapheneos.camera,org.codeaurora.snapcam,com.android.camera
 
-# Charger
-ro.charger.enable_suspend=true
-
 # CNE
 persist.vendor.cne.feature=1
 
